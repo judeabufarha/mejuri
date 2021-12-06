@@ -1,0 +1,28 @@
+h1{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+   letter-spacing: 7px;
+   font-size: 3rem;
+   text-align: center;
+   }
+   
+.navbar a{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+    margin-top: -100px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: lightgrey;
+    max-width: fit-content;
+    padding: 0.6rem;
+    margin-left: auto;       
+}
+
+.navbar a:hover{
+    opacity: 70%;      
+}
