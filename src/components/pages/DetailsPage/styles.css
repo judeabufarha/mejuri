@@ -1,0 +1,68 @@
+
+
+.jewel-page{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    
+}
+.images{
+    margin-left: 5rem;
+    width: 1000px;
+    flex-wrap: wrap;
+  
+}
+.jewel-tit{
+ 
+    margin-top: 20rem;
+    color:black;
+    opacity: 50%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ 
+
+}
+.content{
+    display: flex;
+    flex-direction: column; 
+    color: grey;
+}
+
+.jewel-pri{
+
+margin-bottom: -5px;
+}
+.jewel-image{
+   
+    width: 400px;
+    height: 400px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.jewel-image2{
+    
+    width: 400px;
+    height: 400px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.jewel-image3{
+
+    width: 400px;
+    height: 400px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.jewel-image4{
+ 
+    width: 400px;
+    height: 400px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    
+}

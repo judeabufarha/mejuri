@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {JewelsOrderContextProvider} from './context/jewelContext'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <JewelsOrderContextProvider>
     <App />
-  </React.StrictMode>,
+  </JewelsOrderContextProvider>,
   document.getElementById('root')
 );
 

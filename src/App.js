@@ -7,6 +7,7 @@ import {
 import { Navbar } from './components/Navbar';
 import { HomePage } from './components/pages/HomePage';
 import { Footer } from './components/footer';
+import { DetailsPage } from './components/pages/DetailsPage';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           <Footer/>
         </Route>
         <Route path="/jewelry/:id">
-          <div>Individual jewelry Details</div>
+          <DetailsPage/>
+          <Footer/>
         </Route>
       </Switch>
     </Router>

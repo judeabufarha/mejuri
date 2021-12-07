@@ -23,8 +23,14 @@
     color:gray;
     text-transform: uppercase;
     margin-bottom: 50px;
+   
 }
-
+a:link{
+    text-decoration: none!important;
+  }
+  a:hover{
+    opacity: 60%;
+  }
 .jewel-price , .jewel-material{
     color: gray;
     padding-left: 10px;

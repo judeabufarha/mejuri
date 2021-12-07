@@ -1,7 +1,7 @@
 import "./styles.css";
-import {useEffect, useState} from 'react';
+import {useEffect, useState, useContext} from 'react';
 import { JewelryItem } from "../../JewelryItem";
-
+import JewelsOrderContext from "../../../context/jewelContext";
 
 
 export const HomePage = () => {
@@ -11,6 +11,7 @@ export const HomePage = () => {
             getJewelry();
         }, []
     );
+    const globalState = useContext(JewelsOrderContext);
 
     const getJewelry = async () => {
         try{
@@ -22,6 +23,8 @@ export const HomePage = () => {
             });
 
             setJewelry(formattedData);
+            globalState.initializeJewels(formattedData);
+            
             console.log(data.documents[0].id);
         } catch(err){
             console.log(err)
